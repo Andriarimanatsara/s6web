@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^/?.*/?.*/([_a-z0-9]*)/([_a-z0-9]*)-([_a-z0-9]*).php$  detail.php?nomC=$1&Lieu=$2&id=$3 [L]
+
